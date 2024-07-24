@@ -1,0 +1,38 @@
+.theWedding {
+    font-family: 'LeJourScript';
+    font-size: 16px;
+}
+
+.horizontalLine {
+    border: 1px solid grey;
+}
+
+.verticalLine {
+    border-left: 1px solid grey;
+    height: 55px;
+    width: 1%;
+    margin-top: -8px;
+    margin-bottom: -10px;
+}
+
+.dateTimePlace {
+    font-size: 10px;
+    font-family: 'Quicksand';
+    width: 50%;
+}
+
+.countdownTime {
+    font-family: 'CatchyMager';
+    font-size: 24px;
+    display: flex;
+    height: 30px;
+    margin-top: -30px;
+}
+
+.countdownDate {
+    font-family: 'Quicksand';
+    font-size: 9px;
+    display: flex;
+    margin-top: 15px;
+    height: 10px;
+}

@@ -1,0 +1,44 @@
+.backgroundProfile {
+    background-color: #DAD8C9;
+    width: 100vw;
+    height: 1500px;
+    text-align: center;
+}
+
+.theCouple {
+  font-family: 'Voga';
+  font-size: 64px;
+  position: relative;
+  top: 5%;
+  line-height: 80%;
+  margin-bottom: 20%;
+}
+
+.profilePicture {
+  width: 40%;
+  height: auto;
+  border: 1px double;
+}
+
+.profileWrapper {
+  position: relative;
+  top: 5%;
+}
+
+.theGroom {
+  margin-top: 10px;
+  font-size: 24px;
+  font-family: "Antic", Sans-serif;
+  letter-spacing: 0px;
+}
+
+.profileName {
+  font-family: 'JosefinSans-Reguler';
+  font-size: 24px;
+}
+
+.instagram {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}

@@ -1,0 +1,120 @@
+.blackBackground {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: fadeOut 3s forwards;
+    animation-delay: 6s;
+}
+
+.theWeddingOf {
+    position: absolute;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    animation: fadeInOut 3s linear;
+    font-family: 'JosefinSans-Regular';
+}
+
+.ourName {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    opacity: 0;
+    animation: fadeInOut 3s linear;
+    animation-delay: 3s;
+    font-family: 'JosefinSans-Regular';
+}
+
+.backgroundInvitation {
+    height: 100vh;
+    width: 100vw;
+    justify-content: content;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-color: rgb(255,206,0, .2); */
+    background-blend-mode: luminosity;
+    position: absolute;
+    z-index: 2;
+}
+
+.wrappedTitleInvitation {
+    position: sticky;
+    top: 8%;
+}
+
+.titleTheWedding {
+    font-family: 'JosefinSans-Regular';
+    color: #595959;
+}
+
+.invitationDate {
+    font-family: 'JosefinSans-Regular';
+    color: #595959;
+}
+
+.titleOurName {
+    font-family: 'Voga';
+    font-size: 64px;
+    color: #6E6F71;
+    line-height: 75%;
+}
+
+.wrappedMainInvitation {
+    position: sticky;
+    top: 75%;
+    color: white;
+}
+
+.openInvitation {
+    margin-top: 10%;
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    animation: beat 1s infinite alternate;
+    transform-origin: center;
+}
+
+.envelop {
+    width: 20px;
+    height: 20px;
+}
+
+.dear {
+    font-family: 'JosefinSans-Regular';
+}
+
+
+
+/* Animation */
+
+@keyframes fadeInOut {
+    0%,100% { opacity: 0 }
+    30%,50% { opacity: 1 }
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    50% { opacity: 0.4}
+    100% { opacity: 0; }
+    100% { z-index: 0;}
+}
+
+@keyframes beat {
+    to { transform: scale(1.2); }
+}
+
+@keyframes scrollOut {
+    to 
+    {
+        transform: translateY(-101vh);
+    }
+}

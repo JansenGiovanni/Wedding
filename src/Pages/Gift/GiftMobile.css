@@ -1,0 +1,48 @@
+.backgroundGift {
+    height: 150vh;
+    width: 100vw;
+    background-color: white;
+    text-align: center;
+}
+
+.backgroundGiftTop {
+    width: 100%;
+    background-color: greenyellow;
+    height: 40vh;
+}
+
+.imageGift {
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -20%;
+}
+
+.wrapperGift {
+    position: relative;
+    top: -10%;
+}
+
+.giftBankWrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.titleGift {
+    font-size: 24px;
+    color: black;
+    font-family: 'LeJourScript';
+}
+
+.giftName {
+    color: black;
+}
